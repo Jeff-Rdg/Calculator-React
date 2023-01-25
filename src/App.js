@@ -1,9 +1,14 @@
+import { Container, Content } from "./styles";
+import Input from "./components/Input";
+import Button from "./components/Button";
 
 function App() {
   return (
-    <div className="App">
-      Olá
-    </div>
+    <Container>
+      <Content>
+        <Input></Input>
+      </Content>
+    </Container>
   );
 }
 
