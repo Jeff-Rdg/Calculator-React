@@ -7,6 +7,7 @@ function App() {
     <Container>
       <Content>
         <Input></Input>
+        <Button type="teste" />
       </Content>
     </Container>
   );
